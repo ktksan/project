@@ -1,0 +1,47 @@
+# Gradle-related files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradlew
+.gradlew.bat
+
+# IDE-specific files
+.idea/
+*.iml
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.lock
+
+# Kotlin-specific files
+*.class
+*.jar
+*.war
+*.ear
+
+# Environment files
+.env
+.env.local
+
+# Test coverage reports
+*.lcov
+coverage/
+
+# Dependency caches
+dependency-reduced-pom.xml
+
+# Database or sensitive files
+*.db
+*.sqlite
+
+# JetBrains IntelliJ-specific
+out/
